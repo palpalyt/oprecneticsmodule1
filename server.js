@@ -10,7 +10,8 @@ app.get('/health', (req, res) => {
     nrp: "5025241002",
     status: "UP",
     timestamp: Date.now(),
-    uptime: process.uptime()
+    uptime: process.uptime(),
+    message: "Server is healthy"
   });
 });
 
