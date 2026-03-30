@@ -11,7 +11,7 @@ app.get('/health', (req, res) => {
     status: "UP",
     timestamp: Date.now(),
     uptime: process.uptime(),
-    message: "Server is healthy"
+    message: "Server is healthy hi"
   });
 });
 
