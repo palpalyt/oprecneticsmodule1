@@ -6,8 +6,8 @@ app.use(express.json());
 
 app.get('/health', (req, res) => {
   res.status(200).json({
-    nama: "Palpal Yalmialam",
-    nrp: "5025241002",
+    nama: "Kenzie Maheswara",
+    nrp: "5025241001",
     status: "UP",
     timestamp: Date.now(),
     uptime: process.uptime(),
